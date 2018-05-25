@@ -10,11 +10,10 @@ import matplotlib.pyplot as plt
 
 # In[4]:
 
-X = my_data.iloc[:,0:2]
 ones = np.ones([X.shape[0],1])
 X = np.concatenate((ones,X),axis=1)
 
-y = my_data.iloc[:,2:3].values
+
 theta = np.zeros([1,3])
 
 
